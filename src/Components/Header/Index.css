@@ -1,0 +1,51 @@
+.headersec1 img {
+    width: 10.7vw;
+    height: 10.7vw;
+    margin-top: 1.5vw;
+}
+.headersec2 p {
+    font-size: 1.6vw;
+    font-weight: 500;
+    color: #000000;
+}
+.headersec2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    margin-top: -2vw;
+}
+.headercon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 4vw;
+    padding-right: 5vw;
+    background-color: #F4F4F4;
+}
+.mobileheaderlogo {
+    width: 50px;
+    height: 50px;
+}
+.mobileheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    background-color: #F4F4F4;
+    padding-top: 5vw;
+}
+@media only screen and (max-width: 600px) {
+  .headercon {
+      display: none;
+  }
+  .heroseccon {
+      padding-top: 4vw;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .mobileheader {
+      display: none;
+  }
+}

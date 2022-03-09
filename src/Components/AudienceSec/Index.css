@@ -1,0 +1,47 @@
+.audienceseccon {
+  width: 100%;
+  height: 67.5vw;
+  background: #010000;
+}
+.audiencesecheading h1 {
+    font-size: 2.7vw;
+    color: #FFFFFF;
+    text-align: center;
+}
+.audiencesecheading {
+    padding-top: 2vw;
+}
+.audiencesec2 {
+    background-image: url('../../Assets/Audienceimg.png');
+    background-size: 100% 100%;
+    width: 80vw;
+    height: 51vw;
+}
+.audiencesec2con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.audiencebtns button {
+    width: 16.7vw;
+    height: 5.2vw;
+    border-radius: 0.8vw;
+    background: white;
+    font-size: 22px;
+    color: black;
+    border: none;
+    outline: none;
+    margin-top: 2vw;
+    font-size: 1.6vw;
+}
+.audiencebtns p {
+    font-size: 1.6vw;
+    color: white;
+}
+.audiencebtns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -12vw;
+}

@@ -1,0 +1,29 @@
+.missionCon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15.7vw;
+    margin-top: 3vw;
+  }
+  .missionCon .heading {
+    font-size: 7.3vw;
+    font-weight: 800;
+    padding-bottom: 1vw;
+    color: white;
+  }
+  .missionCon .description {
+    padding: 0 1.5vw;
+    font-size: 2.083vw;
+    text-align: justify;
+    padding-bottom: 5vw;
+    color: white;
+  }
+  .missionCon .imgCon {
+    width: 95%;
+    padding-bottom: 4vw;
+  }
+  .missionCon .imgCon img {
+    width: 100%;
+  }
+  

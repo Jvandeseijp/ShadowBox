@@ -2,8 +2,7 @@ import React from 'react'
 import './Index.css'
 import Logo from '../../Assets/Logo.png'
 import MobileHeader from '../MobileHeader/Index'
-import Moralis from 'moralis/types'
-
+import { useMoralis } from 'react-moralis';
 function Header () {
 
     const{

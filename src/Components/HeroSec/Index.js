@@ -1,7 +1,6 @@
 import React from 'react'
 import './Index.css'
 import poweredimg from '../../Assets/poweredimg.png'
-import Moralis from 'moralis/types';
 import { useMoralis } from 'react-moralis';
 
 
